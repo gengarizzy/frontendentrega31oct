@@ -1,0 +1,136 @@
+@font-face {
+    font-family:DoomLeft ;
+    src: url(../../../assets/AmazDooMLeft.ttf);
+}
+
+@font-face {
+    font-family: Hylian;
+    src: url(../../../assets/HyliaSerifBeta-Regular.otf);
+}
+
+div{
+    background-color: black;
+}
+
+
+
+
+#profilepicture{
+    border-radius: 50%;
+   
+    width: 300px;
+    }
+    
+    
+   
+
+   
+
+
+#nombre{
+    color: white;
+    font-size: 5em;
+    font-family: DoomLeft ;
+    
+    text-shadow: 1px 1px 3px gray;
+}
+
+
+#cert{
+    color: red;
+    font-family: DoomLeft;
+    font-size: 5em;
+
+   
+    text-shadow: 1px 1px 20px rgb(157, 3, 3);
+   
+    
+
+}
+
+
+
+#aboutmeimg{
+    padding-left:0px;
+    
+}
+
+#aboutmetext{
+   font-size: 1em;
+}
+
+
+#aboutmeh1{
+    color: blue;
+    font-family: DoomLeft;
+    font-size: 6em;
+    
+    
+}
+
+#aboutmep{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    
+}
+
+#espaciador{
+    flex: 1;
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+
+    #cert{
+        padding-left: 20px;
+    }
+
+    #profilepicture{
+        width: 250px;
+    }
+
+    #nombre{
+        font-size: 4.9em;
+        margin-top: 0.5em;
+    }
+
+    #aboutmesection{
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    #aboutmeimg{
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #cert{
+        font-size:3.7em ;
+    }
+
+    #aboutmeh1{
+
+        margin-top: 50px;
+        font-size: 7em;
+
+    }
+
+    #aboutmep{
+        margin-top: 0px ;
+    }
+
+    #aboutmetext{
+        padding-top: 10px;
+    }
+        
+}
+    
+
+
+

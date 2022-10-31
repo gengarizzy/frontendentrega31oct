@@ -1,0 +1,63 @@
+    <!-- 
+        Este componente es la segunda version
+        de aboutme, pero realizado en bootstrap
+        y sin incorporar las letras especiales
+        del DOOM, para evitar problemas en el
+        responsive en las fuentes.
+
+        FOTO   COLUMNA-INFO   COLUMNA-INFO
+
+        Para hacerlo responsive, quiero que
+        cada elemento descienda por flex-wrap
+        en dispositivos pequenos
+
+        Esto lo logro asignando toda la pantalla
+        en tamano extra-small, las 12 col del grid (col-xs-12)
+
+        En tamanos mayores a xs, voy a usar una menor cantidad
+        de columnas para cada elemento, asi se muestran de manera
+        horizontal en la pantalla
+
+    -->
+<div class="container-fluid">
+    <div class="row justify-content-center mb-5     ">
+        
+            <img id="profilepicture" src="../../../assets/ragnar.jpeg" class="img-thumbnail" alt="profile picture">   
+           
+
+    </div>
+
+
+    <div id="aboutmesection" class="row d-flex text-center align-center justify-content-between">
+
+        <div id="aboutmeimg" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+             
+            <h1 id="nombre">{{persona.nombre}} {{persona.apellido}}</h1>
+            
+                
+            <h1 id="cert">Full Stack Developer Jr</h1>
+            
+        </div>
+
+        
+
+
+        
+            
+                
+            
+            
+    
+
+        
+
+
+        <div id="aboutmetext" class="col-xs-12 col-sm-5 col-md-5 col-lg-5 ">
+            <h1 id="aboutmeh1">Acerca de mi</h1>
+            <p id="aboutmep"> SOY DESARROLLADOR WEB Y <br> ESTUDIANTE DE INGENIERIA AMBIENTAL </p>
+        </div>
+
+
+
+    </div>
+</div>

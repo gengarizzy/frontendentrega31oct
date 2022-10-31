@@ -1,0 +1,59 @@
+@font-face {
+    font-family:DoomLeft ;
+    src: url(../../../assets/AmazDooMLeft.ttf);
+}
+
+@font-face {
+    font-family: Hylian;
+    src: url(../../../assets/HyliaSerifBeta-Regular.otf);
+}
+
+#proyectosh1{
+    font-family: DoomLeft;
+    font-size: 5vw;
+    padding-top: 15px;
+    color: rgb(193, 189, 189);
+}
+
+#contenedorproyectos{
+    background-color: black;
+}
+
+#rowproyectos{
+    display: inline-block;
+    color: aqua;
+}
+
+h1{
+    font-weight:500;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#imgdiv{
+    
+}
+
+#imgproyecto1{
+  width: 80%;
+   
+}
+
+@media only screen and (max-width: 576px){
+    #proyectosh1{
+        font-size: 12vw;
+        font-weight: 400;
+    }
+
+    #boton{
+        display: flex;
+        justify-content: center;
+    }
+
+    #imgdiv{
+        display: flex;
+        justify-content: center;
+    }
+}

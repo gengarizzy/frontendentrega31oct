@@ -1,0 +1,85 @@
+#container{
+    
+}
+
+#headercontainer{
+    background-color: black;
+   
+}
+
+#aplogopng{
+    
+   width: 180px;
+          
+}
+
+#githublogo{
+    width: 60px;
+    margin-right: 10px; 
+}
+
+#linkedinlogo{
+    width: 60px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#loginbtn:hover{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,121,9,0.27636564879858194) 35%, rgba(0,212,255,1) 100%);
+   
+}
+
+/* Revisando en movil, el iPhone SE me da problemas en la vista
+Por lo que quiero que en celulares, todo se vaya para abajo y asi evitar problemas
+En vez de una ROW, voy a mostrar todo en columnas para dispositivos sm con un media query */
+
+
+
+@media only screen and (max-width: 576px) {
+    
+    #headercontainer{
+    flex-direction: column;
+    padding-bottom: 30px  ;
+     }
+
+    #aplogopng{
+        width: 300px;
+        
+    } 
+
+    #socialmedialogo{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #githublogo{
+        width: 150px;
+        margin-top: 15px;
+       
+  
+}
+
+    #linkedinlogo{
+  
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+    #loginbtn{
+        margin-top: 12px;
+        width: 90%;
+        height: auto;
+        
+        margin-bottom: 10px;
+    }
+ 
+ 
+ 
+   
+    
+     
+ }

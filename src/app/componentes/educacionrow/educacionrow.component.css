@@ -1,0 +1,118 @@
+@font-face {
+    font-family:DoomLeft ;
+    src: url(../../../assets/AmazDooMLeft.ttf);
+}
+
+@font-face {
+    font-family: Hylian;
+    src: url(../../../assets/HyliaSerifBeta-Regular.otf);
+}
+
+
+#divprincipaledu{
+    background-color: rgba(128, 128, 128, 0.826);
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+#educacionh1{    
+    font-family: DoomLeft;
+    font-size: 5vw;
+    margin-left: 10px;
+    margin-top: 7px;
+    color: rgb(7, 109, 168);
+}
+
+#educacionrow{
+    color: white;
+    background-color: black;
+}
+
+.card-body{
+    background-color: rgba(245, 245, 245, 0.086);
+    margin-bottom: 10px;
+    
+}
+
+button{
+    margin: 2px;
+}
+
+#divprincipalcards{
+    padding-bottom: 15px;
+    border: 1px;
+    border-color: aquamarine;
+
+}
+
+
+
+@media only screen and (max-width: 576px){
+
+    #divjobexperience{
+        justify-content: center;
+        
+        
+    }
+
+    #jobexperienceh1{
+        margin-top: 10px;
+        font-size: 12vw;
+    }
+
+    .divtarjeta{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.col{
+    justify-content: center;
+}
+h2{
+    color: white;
+}
+
+h5{
+    color:purple;
+}
+
+@media only screen and (max-width: 576px){
+    .contenedor{
+        margin-left: 5px;
+    }
+    #divtarjetasedu{
+        padding: 30px;
+        margin: 30px;
+    }
+
+    #educacionh1{
+        font-size: 12vw;
+    }
+
+
+
+    #divjobexperience{
+        justify-content: center;
+        
+        
+    }
+
+    #jobexperienceh1{
+        margin-top: 10px;
+        font-size: 12vw;
+    }
+
+    .divtarjeta{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.col{
+    justify-content: center;
+}

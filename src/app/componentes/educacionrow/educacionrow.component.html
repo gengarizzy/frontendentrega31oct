@@ -1,0 +1,47 @@
+
+<div id="divprincipaledu">
+    <div class="container-fluid" id="containeredu">
+  
+    
+        <div id="divjobeedu" class="row text-center pt-1">
+            <h1 id="educacionh1">Educacion</h1>
+          <div class="col-lg-2">
+            <button type="button" class="btn btn-success" routerLink="/nuevaeducacion" *ngIf="isLogged">
+                Agregar educacion
+            </button> 
+        </div>
+        </div>
+    
+        
+    
+    </div>
+    
+    <div id="divprincipalcards" class="row row-cols-1 row-cols-md-3  justify-content-center text-center">
+      
+
+        <div class="col-sm-10 col-md-8 col-lg-8  divtarjeta justify-content-center" id="divtarjetasedu">
+          <div class="card h-100 justify-content-between bg-dark border border-secondary">
+            
+            <div class="card-body justify-content-center" *ngFor="let Educacion of educacion">
+              <h2 class="card-title text-light">{{Educacion.nombreE}} </h2>
+              <h6 id="cardtext3" class="card-text text-white fs-5">{{Educacion.descripcionE}}</h6>
+
+              <button id="button_edit" *ngIf="isLogged" class="btn btn-secondary col-sm-3 col-md-3" routerLink="/editedu/{{Educacion.id}}">
+                <i class="bi bi-x"></i> EDITAR</button>
+                
+               
+            
+          
+              <button id="button_delete" *ngIf="isLogged" class="btn btn-danger col-sm-3 col-md-3" (click)="delete(Educacion.id)">
+                <i class="bi bi-trash-fill"></i> BORRAR</button>
+
+              
+              
+                
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>  
+</div>

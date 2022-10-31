@@ -1,0 +1,15 @@
+@font-face {
+    font-family: DoomLeft;
+    src: url(../../../assets/AmazDooMLeft.ttf);
+}
+
+h1{
+    font-family: DoomLeft;
+    font-size: 12vw;
+    color: red;
+}
+
+div{
+    background-color: black;
+    text-align: center;
+}

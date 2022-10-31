@@ -1,0 +1,81 @@
+@font-face {
+    font-family:DoomLeft ;
+    src: url(../../../assets/AmazDooMLeft.ttf);
+}
+
+@font-face {
+    font-family: Hylian;
+    src: url(../../../assets/HyliaSerifBeta-Regular.otf);
+}
+
+
+
+
+div{
+    background-color: rgb(41, 40, 40);
+    color: white;
+
+
+}
+
+h1, h3{
+    display: inline;
+}
+
+#divjobexperience{
+    padding-top: 15px;
+    
+}
+
+#jobexperienceh1{
+    font-family: DoomLeft;
+    color: purple;
+    font-size: 5vw;
+    text-shadow: 1px 1px 20px rgb(44, 1, 33);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.card-body{
+    background-color: rgba(245, 245, 245, 0.086);
+    margin-bottom: 10px;
+    
+}
+
+button{
+    margin: 2px;
+}
+
+#divprincipalcards{
+    padding-bottom: 15px;
+    border: 1px;
+    border-color: aquamarine;
+
+}
+
+
+
+@media only screen and (max-width: 576px){
+
+    #divjobexperience{
+        justify-content: center;
+        
+        
+    }
+
+    #jobexperienceh1{
+        margin-top: 10px;
+        font-size: 12vw;
+    }
+
+    .divtarjeta{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.col{
+    justify-content: center;
+}

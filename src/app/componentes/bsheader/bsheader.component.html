@@ -1,0 +1,63 @@
+<div id="container" class="container-fluid">
+
+
+
+    <div class="row (MAIN AXIS JUSTIFY) justify-content-between (CROSS AXIS ALIGN) align-items-center">
+
+
+        
+
+        <div id="headercontainer" class="container-fluid d-flex (MAIN AXIS JUSTIFY) justify-content-between (CROSS AXIS ALIGN) align-items-center">
+
+    <!--DIV LOGO ARGENTINA PROGRAMA-->
+           
+                <img id="aplogopng" src="../../../assets/APLogo-20-20.png">
+
+                
+            
+
+
+
+           
+
+
+    <!--DIV LOGOS REDES SOCIALES-->
+            <div id="socialmedialogo">
+                <a href="https://github.com/gengarizzy" target="_blank">
+                    <img id="githublogo" src="../../../assets/githubcontraste.png">
+                </a>
+
+                <a href="https://www.linkedin.com/in/mario-daniel-palacio-082370157/" target="_blank">
+                    <img id="linkedinlogo" src="../../../assets/linkedinlogo.png">
+                </a>
+
+                <!-- Para aprovechar el justify-content-between, ubico al futuro boton de login en el mismo contenedor que las redes sociales
+                    Ademas, le asigno una clase bootstrap margin-end (margin-right) para separarlo del borde derecho del div
+
+                    En el css le asigno un selector :hover para darle un efecto al posicionar el mouse
+                
+                -->
+<!--    Uso dos botones de login segun el estado. Uno para cuando
+el estado de login sea falso,  y otro para cuando sea verdadero (y este loggeado)-->
+
+<button id="loginbtn" class="btn btn-primary me-2" (click)="login()" *ngIf="!isLogged">Iniciar sesion</button>
+
+
+
+<button id="loginbtn" class="btn btn-primary me-2" (click)="onLogOut()"   *ngIf="isLogged" style="background-color:purple ;">Cerrar sesion</button>
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+</div>
